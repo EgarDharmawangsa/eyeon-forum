@@ -35,8 +35,8 @@ let dbMessage = null;
 let bannedWords = [];
 
 signInAnonymously(auth)
-//   .then(() => console.log("LOGIN SUCCESS"))
-//   .catch((err) => console.error("AUTH ERROR:", err));
+  .then(() => console.log("LOGIN SUCCESS"))
+  .catch((err) => console.error("AUTH ERROR:", err));
 
 async function loadBadWords() {
   try {
