@@ -24,7 +24,6 @@ h2 {
     max-width: 60rem;
     height: 30rem;
     background-color: #0b141b;
-    border: 2px solid white;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -62,9 +61,20 @@ h2 {
     border-radius: 10px;
     color: white;
     overflow-wrap: break-word;
+}
+
+.message-bubble-self {
+    align-self: flex-end;
     background-color: #19603c;
     border-top: 1.5px solid #1f7e4f;
     border-bottom: 1.5px solid #12452b;
+}
+
+.message-bubble-other {
+    align-self: flex-start;
+    background-color: #202d35;
+    border-top: 1.5px solid #324551;
+    border-bottom: 1.5px solid #161f25;
 }
 
 .greeting-message-bubble {
@@ -86,7 +96,7 @@ h2 {
 .input {
     flex: 1;
     padding: 10px;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 5px 0 0 5px;
     background-color: #202d35;
     color: white;
